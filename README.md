@@ -3,6 +3,8 @@
 [English](#english) | [日本語](#japanese)
 
 ---
+![Demo](images/demo.gif)
+
 
 ## English {#english}
 

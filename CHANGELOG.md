@@ -1,9 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to the "python-init-formatter" extension will be documented in this file.
+## [1.0.1] - 2026-10-18
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- change icon
 
-## [Unreleased]
+## [1.0.0] - 2026-10-18
 
-- Initial release
+- packaging
+
+## [0.1.0] - 2026-10-18
+
+- Create new
