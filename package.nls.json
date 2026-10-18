@@ -1,0 +1,5 @@
+{
+  "extension.displayName": "Python __init__.py __all__ Formatter",
+  "extension.description": "Formats __all__ in __init__.py based on imports.",
+  "command.formatInitAll.title": "Format __all__ in __init__.py"
+}

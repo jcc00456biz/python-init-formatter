@@ -1,0 +1,60 @@
+{
+  "name": "python-init-formatter",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
+  "version": "1.0.0",
+  "publisher": "jcc00456biz",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "l10n": "./l10n",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcc00456biz/python-init-formatter.git"
+  },
+  "icon": "icon.png",
+  "main": "./out/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "python-init-formatter.formatInitAll",
+        "title": "%command.formatInitAll.title%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "python-init-formatter.formatInitAll",
+          "group": "1_modification",
+          "when": "resourceExtname == .py && resourceFilename == __init__.py"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "python-init-formatter.formatInitAll",
+          "group": "1_modification",
+          "when": "resourceExtname == .py && resourceFilename == __init__.py"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/test-cli": "^0.0.15",
+    "@vscode/test-electron": "^3.1.0",
+    "typescript": "^5.3.0"
+  }
+}

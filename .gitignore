@@ -1,0 +1,15 @@
+# --- 依存関係 ---
+node_modules/
+
+# --- ビルド成果物・出力 ---
+out/
+*.vsix
+
+# --- テスト・一時ファイル ---
+.vscode-test/
+.history/
+*.log
+
+# --- OS固有ファイル ---
+.DS_Store
+Thumbs.db

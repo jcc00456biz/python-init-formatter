@@ -1,0 +1,5 @@
+{
+  "extension.displayName": "Python __init__.py __all__ フォーマッター",
+  "extension.description": "__init__.py のインポートに基づいて __all__ を整形します。",
+  "command.formatInitAll.title": "__init__.py の __all__ を整形"
+}

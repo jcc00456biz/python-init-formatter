@@ -1,0 +1,6 @@
+{
+  "This command only works on __init__.py files.": "このコマンドは __init__.py ファイルでのみ動作します。",
+  "No imports found to format.": "整形対象のインポートが見つかりませんでした。",
+  "__all__ formatted successfully.": "__all__ を正常に整形しました。",
+  "No active editor or file found.": "有効なエディタまたはファイルが見つかりませんでした。"
+}

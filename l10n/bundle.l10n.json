@@ -1,0 +1,6 @@
+{
+  "This command only works on __init__.py files.": "This command only works on __init__.py files.",
+  "No imports found to format.": "No imports found to format.",
+  "__all__ formatted successfully.": "__all__ formatted successfully.",
+  "No active editor or file found.": "No active editor or file found."
+}
